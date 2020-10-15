@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ojal.agrawal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ojal.agrawal\\.nuget\\packages"
+    ]
+  }
+}
