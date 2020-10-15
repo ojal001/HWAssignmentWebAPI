@@ -26,10 +26,6 @@ namespace WebApplication1.BusinessLogic
         public EmployeeDetailsModel GetEmployeeDetails(int empId)
         {
             var result = mapper.Map<EmployeeDetails,EmployeeDetailsModel>(employeeDetailsDA.GetEmployee(empId));
-            if(result == null)
-            {
-
-            }
             return result;
         }
 

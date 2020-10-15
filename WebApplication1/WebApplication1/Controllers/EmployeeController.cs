@@ -26,6 +26,10 @@ namespace WebApplication1.Controllers
         public IActionResult Get(int employeeId)
         {
             var result = employeeManager.GetEmployeeDetails(employeeId);
+            if(result.EmployeeId==0)
+            {
+                return NotFound("employee NotFound");
+            };
             return Ok(result);
         }
 
